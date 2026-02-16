@@ -81,7 +81,7 @@ module.exports = function(grunt) {
 			},
 			evo4: {
 				options: {
-					archive: `dataattributes-evo4.zip`,
+					archive: `dataattributesEvo4.zip`,
 				},
 				files: [
 					{
