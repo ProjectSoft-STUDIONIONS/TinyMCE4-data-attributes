@@ -24,3 +24,7 @@ tab_width = 4
 
 [**php]
 tab_width = 4
+
+[**.yml]
+indent_style = space
+tab_width = 2
