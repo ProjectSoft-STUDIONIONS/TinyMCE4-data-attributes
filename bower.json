@@ -1,0 +1,17 @@
+{
+  "name": "tinymce4-data-attributes",
+  "description": "TinyMCE4 плагин. Позволяет добавить атрибуты data-* к элементам",
+  "main": "Gruntfile.js",
+  "authors": [
+    "ProjectSoft <projectsoft2009@yandex.ru>"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/ProjectSoft-STUDIONIONS/TinyMCE4-data-attributes",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
