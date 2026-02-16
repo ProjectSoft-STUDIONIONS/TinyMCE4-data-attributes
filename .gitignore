@@ -5,3 +5,6 @@ test
 tests
 temp
 temps
+tmp
+*.zip
+*.sublime-workspace
