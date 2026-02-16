@@ -1,19 +1,32 @@
 {
-  "name": "tinymce4-data-attributes",
-  "version": "1.0.0",
-  "description": "TinyMCE4 плагин. Позволяет добавить атрибуты data-* к элементам",
-  "main": "Gruntfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ProjectSoft-STUDIONIONS/TinyMCE4-data-attributes.git"
-  },
-  "author": "ProjectSoft <projectsoft2009@yandex.ru>",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/ProjectSoft-STUDIONIONS/TinyMCE4-data-attributes/issues"
-  },
-  "homepage": "https://github.com/ProjectSoft-STUDIONIONS/TinyMCE4-data-attributes#readme"
+	"name": "tinymce4-data-attributes",
+	"version": "1.0.0",
+	"description": "TinyMCE4 плагин. Позволяет добавить атрибуты data-* к элементам",
+	"type": "commonjs",
+	"main": "Gruntfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"inst": "npm i",
+		"preinstall": "npm i -g less",
+		"build": "grunt -v"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ProjectSoft-STUDIONIONS/TinyMCE4-data-attributes.git"
+	},
+	"author": "ProjectSoft <projectsoft2009@yandex.ru>",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/ProjectSoft-STUDIONIONS/TinyMCE4-data-attributes/issues"
+	},
+	"homepage": "https://github.com/ProjectSoft-STUDIONIONS/TinyMCE4-data-attributes#readme",
+	"dependencies": {
+		"grunt": "^1.6.1",
+		"grunt-contrib-clean": "^2.0.1",
+		"grunt-contrib-compress": "^2.0.0",
+		"grunt-contrib-requirejs": "^1.0.0",
+		"grunt-contrib-uglify-es": "^3.3.0",
+		"load-grunt-tasks": "^5.1.0",
+		"time-grunt": "github:ProjectSoft-STUDIONIONS/time-grunt"
+	}
 }
